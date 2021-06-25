@@ -1,9 +1,10 @@
-
+<?php
 
 PUT THIS CODE IN WORDPRESS THEME functions.php
 
 //** *Enable upload for webp image files.*/
 /** * Somandeep Singh */
+
 function webp_upload_mimes( $existing_mimes ) {
 	// add webp to the list of mime types
 	$existing_mimes['webp'] = 'image/webp';
